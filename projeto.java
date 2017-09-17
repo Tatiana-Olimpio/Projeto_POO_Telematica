@@ -6,8 +6,8 @@
 public class projeto{
 
 	public static void main(String[] args) {
-		Cliente c = new Cliente( "175.678.543-06", "jose@gmailcom", 
-				 "Rua Rio de Janeiro 501", 22121980, 987380045);
+		Cliente c = new Cliente( "098.097.9876-78", "fulano@gmailcom", 
+				 "Rua Sergipe, São Luiz", 2218764, 98765);
 		
 		
 		Ambiente a = new Ambiente("Espaço de show", 1000 , "Rua: Palmeiras", "Proximo ao MACRO supermercado");
