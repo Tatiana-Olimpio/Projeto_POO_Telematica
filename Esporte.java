@@ -17,7 +17,7 @@ public class Esporte {
 		this.equipe= equipe;
 	}
 
-//  dados do evento
+//  dados do esporte
 		String getDados(){
 			return "\n\nTipo de esporte:\n\nNome do esporte: " + this.nomeDoEsporte + "\nEquipe: " + this.equipe;
 		}	
