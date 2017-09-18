@@ -16,11 +16,14 @@ public class projeto{
 		
 		Evento ev = new Evento("Show de rap", "10 de março de 2018", "19hrs", "Banda conhecida nacionalmente, parcerias com bandas que deixam o seu som mais gosto de ouvir, apresentamos Maneva");
 
+		Filme f = new Filme("Invasão Zumbi", 16, "Terro, zumbi");
+		
 		//verificar dados:
 		System.out.println(c.getDados());
 		System.out.println(a.getDados());
 		System.out.println(e.getDados());
 		System.out.println(ev.getDados());
+		System.out.println(f.getDados());
 	}
 	
 }
