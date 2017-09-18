@@ -30,7 +30,7 @@ public class Ambiente{
 	// Dados do Cliente
 	
 	String getDados(){
-		return "Dados do ambiente: \n Descrição do Ambiente: " + this.descricao + "\n Capacidade total: " + this.capacidadeTotal
+		return "\n\nDados do ambiente: \n Descrição do Ambiente: " + this.descricao + "\n Capacidade total: " + this.capacidadeTotal
 				+ "\nEndereço: " + this.endereço + "\nNome: " + this.nome + 
 				"\nPonto de Referencia: " + this.pontoDeReferencia + "\nQuantidade de vagas no estacionamento: " + this.vagasDeEstacionamento;
 	}
