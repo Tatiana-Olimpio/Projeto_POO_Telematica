@@ -19,7 +19,7 @@ public class Evento {
 		this.elenco = elenco;
 	}
 
-//  dados do cliente
+//  dados do evento
 		String getDados(){
 			return "\n\nDados do evento:\n\nDecrição do evento: " + this.descricao + "\nData do evento: " + this.dataEvento + "\nHorario do evento: " + this.horaEvento + 
 					"\nSinopse do evento:" + this.sinopse + "\n Elenco: " + this.elenco;
