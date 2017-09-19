@@ -14,7 +14,7 @@ public class Filme {
 		this.genero = genero;
 	}
 	
-	//  dados do Evento
+	//  dados do Filme
 	String getDados(){
 		return "\n\nDados do filme:\n\nNome do filme: " + this.nomeDoFilme + "\nFaixa de idade para assistir o filme: " + this.censura + "\nGenero do filme: " + this.genero;
 		}
