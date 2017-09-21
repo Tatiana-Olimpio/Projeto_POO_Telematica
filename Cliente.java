@@ -11,22 +11,27 @@ public class Cliente {
 		private String endereco;
 		private int dataDeNascimento;
 		private int telefone;
+		private String login;
+		private int senha;
 		
 		Scanner entrada = new Scanner(System.in);
 		
 		
            // construtor
-		public Cliente( String cpf, String email,String endereco, int dataDeNascimento, int telefone ){
+		public Cliente( String cpf, String email,String endereco, int dataDeNascimento, int telefone, String login, int senha){
 			this.cpf= cpf;
 			this.email= email;
 			this.endereco=endereco;
 			this.dataDeNascimento=dataDeNascimento;
 			this.telefone=telefone;
+			this.login = login;
+			this.senha = senha;
 			
 			
 		}
 		//  dados do cliente
 		String getDados(){
-			return " Dados do cliente:\n\n CPF: " + this.cpf + "\n Email: " + this.email + "\n Endereço: " +this.endereco+" \n Data de Nascimento: " + this.dataDeNascimento + "\n Telefone: " + this.telefone ;
+			return " Dados do cliente:\n\n CPF: " + this.cpf + "\n Email: " + this.email + "\n Endereço: " +this.endereco+" \n Data de Nascimento: " + this.dataDeNascimento + "\n Telefone: " + this.telefone + 
+					"\nLogin: " + this.login + "\nSenha: " + this.senha;
 		}	
 }		
