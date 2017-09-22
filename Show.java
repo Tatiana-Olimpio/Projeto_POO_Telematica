@@ -1,11 +1,20 @@
-//Autor: Tatiana Olímpio
-import java.util.Scanner;
+//Author: Tatiana Olímpio
 
 
 class Show extends Evento{
-	public Filme(String nome, String descricao, String dataEvento,
+	public Show(String nome, String descricao, String dataEvento,
 			String horaEvento, String sinopse, String elenco) {
 		super(nome, descricao, dataEvento, horaEvento, sinopse, elenco);
+	}
+
+
+
+
+
+	@Override
+	public String toString() {
+		return "Show [nome=" + nome + ", artista=" + artista + ", estilo="
+				+ estilo + "]";
 	}
 
 

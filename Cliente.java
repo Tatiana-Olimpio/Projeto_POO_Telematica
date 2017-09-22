@@ -29,9 +29,74 @@ public class Cliente {
 			
 			
 		}
-		//  dados do cliente
-		String getDados(){
-			return " Dados do cliente:\n\n CPF: " + this.cpf + "\n Email: " + this.email + "\n Endereço: " +this.endereco+" \n Data de Nascimento: " + this.dataDeNascimento + "\n Telefone: " + this.telefone + 
-					"\nLogin: " + this.login + "\nSenha: " + this.senha;
-		}	
+		
+		public String getCpf() {
+			return cpf;
+		}
+
+		public void setCpf(String cpf) {
+			this.cpf = cpf;
+		}
+
+		public String getEmail() {
+			return email;
+		}
+
+		public void setEmail(String email) {
+			this.email = email;
+		}
+
+		public String getEndereco() {
+			return endereco;
+		}
+
+		public void setEndereco(String endereco) {
+			this.endereco = endereco;
+		}
+
+		public int getDataDeNascimento() {
+			return dataDeNascimento;
+		}
+
+		public void setDataDeNascimento(int dataDeNascimento) {
+			this.dataDeNascimento = dataDeNascimento;
+		}
+
+		public int getTelefone() {
+			return telefone;
+		}
+
+		public void setTelefone(int telefone) {
+			this.telefone = telefone;
+		}
+
+		public String getLogin() {
+			return login;
+		}
+
+		public void setLogin(String login) {
+			this.login = login;
+		}
+
+		public int getSenha() {
+			return senha;
+		}
+
+		public void setSenha(int senha) {
+			this.senha = senha;
+		}
+
+		public Scanner getEntrada() {
+			return entrada;
+		}
+
+		public void setEntrada(Scanner entrada) {
+			this.entrada = entrada;
+		}
+
+		public void realizarAutenticacao(String login, int senha){
+			this.login = login;
+			this.senha = senha;
+		}
+		
 }		
