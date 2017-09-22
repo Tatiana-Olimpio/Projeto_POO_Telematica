@@ -4,11 +4,11 @@ import java.util.ArrayList;
 public abstract class Evento {
 	//Atributos
 	private String nome;
-	private String descricao;
+	protected String descricao;
 	private String dataEvento;
 	private String horaEvento;
 	private String sinopse;
-	private String elenco;
+	protected String elenco;
 	private ArrayList<Ingresso> ingressos;
 	
 	Scanner entrada = new Scanner(System.in);
