@@ -7,7 +7,7 @@ public abstract class Ambiente{
 	//Atributos
 	private String descricao;
 	private int capacidadeTotal;
-	private String endereço;
+	private String endereco;
 	private String nome;
 	private String pontoDeReferencia;
 	private int vagasDeEstacionamento;
@@ -16,11 +16,11 @@ public abstract class Ambiente{
 	
 	// construtor 
 	
-	public Ambiente(String descricao, int capacidadeTotal,String endereço, 
+	public Ambiente(String descricao, int capacidadeTotal,String endereco, 
 					String nome, String pontoDeReferencia, int vagasDeEstacionamento){
 		this.descricao = descricao;
 		this.capacidadeTotal = capacidadeTotal;
-		this.endereço = endereço;
+		this.endereco = endereco;
 		this.nome = nome;
 		this.pontoDeReferencia = pontoDeReferencia;
 		this.vagasDeEstacionamento = vagasDeEstacionamento;
@@ -49,13 +49,13 @@ public abstract class Ambiente{
 	}
 
 
-	public String getEndereço() {
-		return endereço;
+	public String getEndereco() {
+		return endereco;
 	}
 
 
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereco(String endereço) {
+		this.endereco = endereço;
 	}
 
 
@@ -101,15 +101,13 @@ public abstract class Ambiente{
 
 
 	//Metodos
-	void mostrarFotos(){
 		
-	}
-	
 	void adicionarAmbiente(){
+		this.adicionarAmbiente();
 		
 	}
 	
 	void pesquisarAmbiente(){
-		
+		this.pesquisarAmbiente();
 	}
 }
