@@ -1,3 +1,5 @@
+//Author: Tatiana Olímpio
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -30,7 +32,7 @@ public class projeto{
 		//Filme f = new Filme("Invasão Zumbi", 16, "Terro, zumbi");
 		
 		//verificar dados:
-		System.out.println(c.getDados());
+		//System.out.println(c.getDados());
 		//System.out.println(a.getDados());
 		//System.out.println(e.getDados());
 		//System.out.println(ev.getDados());
