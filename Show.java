@@ -10,7 +10,6 @@ class Show extends Evento{
 
 
 
-
 	@Override
 	public String toString() {
 		return "Show [nome=" + nome + ", artista=" + artista + ", estilo="

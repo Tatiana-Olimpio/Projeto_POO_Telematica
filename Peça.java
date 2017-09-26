@@ -1,11 +1,21 @@
 //Autor Tatiana Olímpio
-import java.util.Scanner;
 
-class Peça extends Evento{
-	public Filme(String nome, String descricao, String dataEvento,
+
+class Peca extends Evento{
+	public Peca(String nome, String descricao, String dataEvento,
 			String horaEvento, String sinopse, String elenco) {
 		super(nome, descricao, dataEvento, horaEvento, sinopse, elenco);
 			}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Peca [nomePeca=" + nomePeca + ", companhia=" + companhia
+				+ ", genero=" + genero + "]";
+	}
+
+
 
 	//Atributos
 	private String nomePeca;

@@ -6,8 +6,19 @@ class Filme extends Evento{
 			String horaEvento, String sinopse, String elenco) {
 		super(nome, descricao, dataEvento, horaEvento, sinopse, elenco);
 			}
+	
+	
 
 	
+	@Override
+	public String toString() {
+		return "Filme [nomeDoFilme=" + nomeDoFilme + ", censura=" + censura
+				+ ", genero=" + genero + ", entrada=" + entrada + "]";
+	}
+
+
+
+
 	private String nomeDoFilme;
 	private int censura;
 	private String genero;
@@ -43,11 +54,12 @@ class Filme extends Evento{
 	//Metodos
 	
 	void registrarCinema(){
+		this.registrarCinema();
 		
 	}
 
 	void pesquisarCinema(){
-		
+		this.pesquisarCinema();
 	}
 
 }

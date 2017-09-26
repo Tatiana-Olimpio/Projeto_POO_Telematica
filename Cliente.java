@@ -13,9 +13,8 @@ public class Cliente {
 		private int telefone;
 		private String login;
 		private int senha;
-		
+				
 		Scanner entrada = new Scanner(System.in);
-		
 		
            // construtor
 		public Cliente( String cpf, String email,String endereco, int dataDeNascimento, int telefone, String login, int senha){
@@ -87,7 +86,7 @@ public class Cliente {
 		}
 
 		public Scanner getEntrada() {
-			return entrada;
+			return getEntrada();
 		}
 
 		public void setEntrada(Scanner entrada) {
