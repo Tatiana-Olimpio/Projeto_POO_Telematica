@@ -17,9 +17,7 @@ public class Projeto{
 		
 		Ambiente a1 = new Estadio("Espaço de show",1000,"Rua: Palmeiras","Recanto do lazer","Proximo ao MACRO supermercado",600);
 		ambientes.add(a1);
-		System.out.println(a1);
-		
-				
+		System.out.println(a1);		
 		
 		
 		

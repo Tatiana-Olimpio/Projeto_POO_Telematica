@@ -4,7 +4,7 @@
 class Show extends Evento{
 	public Show(String nome, String descricao, String dataEvento,
 			String horaEvento, String sinopse, String elenco) {
-		super(nome, descricao, dataEvento, horaEvento, sinopse, elenco);
+		super(nome, descricao, dataEvento, horaEvento, sinopse, null);
 	}
 
 

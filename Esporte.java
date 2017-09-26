@@ -47,6 +47,8 @@ class Esporte extends Evento{
 		public String toString() {
 			return "Nome do esporte: " + this.nomeDoEsporte + ", Equipe: " + this.equipe;
 		}
+		
+		
 	void registrarGinasio(){
 		
 	}
